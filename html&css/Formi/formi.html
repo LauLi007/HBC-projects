@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="formistyle.css">
+    <title>Formi</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/formistyle.css">
+</head>
+<body>
+    <section id="container">
+        <form class="form">
+            <h1>Henkilökysely</h1>
+            <div class="box henkilotiedot">
+                <h2>Kerro hieman itsestäsi.</h2>
+
+                <input type="text" value="" id="nimi" placeholder="Etunimi">
+                <input type="text" value="" id="sukunimi" placeholder="Sukunimi">
+                <input type="text" value="" id="ika" size="2" maxlength="2" placeholder="Ikä">
+
+            </div>
+
+            <div class="box gender">
+                <h2>Sukupuoli</h2>
+
+                <label for="female">Nainen: </label>
+                <input type="radio" name="gender" value="female" id="female">
+
+                <label for="male">Mies: </label>
+                <input type="radio" name="gender" value="male" id="male">
+
+                <label for="other">Muu: </label>
+                <input type="radio" name="gender" value="other" id="other">
+            </div>
+
+            <div class="box kielet1">
+                <h2>Mitkä ohjelmointikielet ovat sinulle tuttuja?</h2>
+                <label for="html">Html </label>
+                <input type="checkbox" name="kieli" value="kieli" id="html">
+
+                <label for="css">CSS </label>
+                <input type="checkbox" name="kieli" value="kieli" id="css">
+
+                <label for="javascript">Javascript </label>
+                <input type="checkbox" name="kieli" value="kieli" id="javascript">
+            </div>
+
+
+            <div class="box kielet2">
+                <h2>Mistä olet kiinnostunut?</h2>
+
+                <select>
+                    <option value="react">React</option>
+                    <option value="angular">Angular</option>
+                    <option value="php">PHP</option>
+                </select>
+            </div>
+
+            <div class="box personal">
+                <h2>Kerro lisää itsestäsi:</h2>
+                <textarea rows="10" cols="30"></textarea><br>
+
+                <input type="submit" value="submit" id="submitbutton">
+                <input type="reset" value="reset" id="resetbutton">
+            </div>
+        </form>
+
+
+    </section>
+
+</body>
+</html>

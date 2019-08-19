@@ -1,0 +1,92 @@
+body{
+    background-color: #e8e8e8;
+}
+#container{
+    background-color: #ffffff;
+    width: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    border-radius: 20px;
+
+}
+
+.form {
+    font-size: 0.75em;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: cadetblue;
+    padding: 15px;
+}
+
+h2{
+    font-size: 1.5em;
+    padding: 20px;
+    color: cadetblue;
+}
+
+.box {
+    box-sizing: border-box;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:#e8e8e8 ;
+    border-radius: 20px;
+    color: darkslategray;
+    text-align: left;
+}
+
+#nimi{
+    margin-left:20px;
+}
+#submitbutton{
+    width: auto;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+#resetbutton{
+    width: auto;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    margin: 10px;
+    border: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+select{
+    border: 1px solid gray;
+    color: darkslategray;
+
+}
+
+label{
+    margin-left: 20px;
+}
+
+select{
+    margin-left: 20px;
+}
+
+textarea{
+    margin-left: 20px;
+    width: 80%;
+}
+

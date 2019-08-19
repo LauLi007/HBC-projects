@@ -1,0 +1,259 @@
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: whitesmoke;
+    font-family: 'Roboto Slab', serif;
+}
+
+header{
+    width: 100%;
+    padding: 25px 0px;
+    background-color: #0b285e;
+}
+
+header h1{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+nav{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+    background-color: #254471;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ffffff;
+}
+
+
+/*Tässä alkaa container div*/
+#container {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*Tässä alkaa inline-block osio*/
+#inline_block {
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 75px;
+    padding-bottom: 80px;
+}
+
+#kuva1 {
+    display: inline-block;
+    width: 48%;
+    padding-left: 40px;
+}
+
+#inline_block h2 {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#teksti1 {
+    display: inline-block;
+    width: 48%;
+    box-sizing: border-box;
+    padding: 50px 30px;
+    vertical-align: top;
+}
+
+
+/*Tässä alkaa absolute*/
+
+#absolute {
+    position: relative;
+    box-sizing: border-box;
+    height: 490px;
+    padding: 15px;
+    padding-bottom: 100px;
+}
+
+#kuva2 {
+    position: absolute;
+    box-sizing: border-box;
+    right: 0;
+    top: 0;
+    width: 48%;
+    padding-right: 40px;
+
+}
+
+#teksti2 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    width: 51%;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 200px;
+    bottom: 0px;
+
+}
+
+#absolute h2 {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#subtitle-phases {
+    padding: 20px 0px 10px 0px;
+}
+
+#subtitle-all {
+    padding: 20px 0px 10px 0px;
+}
+
+
+/*Tästä alkaa float*/
+
+#float {
+    padding-bottom: 50px;
+    padding-right: 20px;
+}
+
+#kuva3 {
+    width: 49%;
+    float: left;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+#float h2 {
+    font-weight: bold;
+    padding-bottom: 18px;
+}
+
+.teksti3 {
+    padding-left: 50px;
+    padding-right: 40px;
+}
+
+
+/*Tästä alkaa flexbox*/
+
+#flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.img_box4 {
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 95px;
+    width: 25%;
+    height: 25%;
+
+}
+
+img#img2 {
+    width: 28.5%;
+}
+
+img#img3 {
+    width: 28.5%;
+}
+
+footer {
+    background-color: #254471;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.80em;
+}
+
+
+
+/*media query tablet*/
+
+
+@media only screen and (max-width: 769px){
+    #inline_block{
+        padding-bottom: 100px;
+    }
+
+    #teksti1{
+        padding-top: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 10px;
+    }
+
+    #kuva1{
+        display: block;
+        width: 95%;
+        padding-left: 10px;
+    }
+
+    #absolute{
+        height: 870px;
+        position: relative;
+        width: 100%;
+    }
+    #kuva2{
+        position: absolute;
+        box-sizing: border-box;
+        top: 0;
+        width: 99%;
+        padding-left: 20px;
+    }
+
+    #teksti2{
+        width: 100%;
+        padding-top: 780px;
+        padding-left: 20px;
+        margin-left: 10px;
+        padding-right: 40px;
+}
+
+    #kuva3{
+        width: 49%;
+        float: left;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+    .teksti3 {
+        padding-left: 30px;
+        padding-right: 15px;
+    }
+
+    img#img1{
+        width: 90%;
+        margin: 20px 20px;
+    }
+
+    img#img2{
+        width: 90%;
+        margin: 20px 20px;
+    }
+
+    img#img3{
+        width: 90%;
+        margin: 20px 20px;
+    }
+}
